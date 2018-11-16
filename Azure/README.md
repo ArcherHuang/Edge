@@ -1,5 +1,8 @@
 # Azure IoT Hub
 
+* 示意圖
+![](https://oranwind.s3.amazonaws.com/2018/Nov/_____2018_11_16___10_46_12-1542336445287.png)
+
 * CDS Info
   * Message Property : MessageCatalogId, Type(=Message)
   * Message Element : companyId, msgTimestamp, equipmentId, equipmentRunStatus
