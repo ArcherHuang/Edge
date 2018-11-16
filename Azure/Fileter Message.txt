@@ -1,0 +1,20 @@
+{ 
+    "connectionString": "",
+    "Property":{
+        "MessageCatalogId": 1,
+        "Type":"Message"
+    },
+    "Element":{
+        "companyId": 1,
+        "msgTimestamp":  "2018-11-14T10:02:16",
+        "equipmentId": "A1Machine01",
+        "equipmentRunStatus": 1,
+        "waferErrMesgDef": "<table border='10' width='100%' bgcolor='#0000ff' ><tr><th> 日期時間 <th> Alarm<tr><td width='35%'><font color='#ff0000' size='6'> 11/14 23:57-43 -</font></td> <td><font color='#ff0000' size='6'> E9 :EDGE SENSOR 盤面移動前觸發錯誤\r</font></td></tr><tr><td width='35%'><font color='#ff0000' size='6'> 11/14 23:57-43 -</font></td> <td><font color='#ff0000' size='6'> E9 :EDGE SENSOR 盤面移動前觸發錯誤\r</font></td></tr><tr><td width='35%'><font color='#ff0000' size='6'> 11/14 23:54-35 -</font></td> <td><font color='#ff0000' size='6'> E9 :EDGE SENSOR 盤面移動前觸發錯誤\r</font></td></tr></table>",
+        "waferActionMesg": "<table border='10' width='100%' cellspacing='10' bgcolor='#0000ff' ><tr><th> 日期時間 <th> Action<tr><td width='35%'><font color='#0000ff' size='6'> 11/14 23:57-43 -</font></td> <td><font color='#0000ff' size='4'> E9 :EDGE SENSOR 盤面移動前觸發錯誤\r</font></td></tr><tr><td width='35%'><font color='#0000ff' size='6'> 11/14 23:57-43 -</font></td> <td><font color='#0000ff' size='4'> [放棄]:無法調整EDGE SENSOR,放棄測試\r</font></td></tr><tr><td width='35%'><font color='#0000ff' size='6'> 11/14 23:57-43 -</font></td> <td><font color='#0000ff' size='4'> [重試]:請調整EDGE SENSOR後,按[重試]繼續測試\r</font></td></tr></table>",
+        "waferActionNum": 422,
+        "waferErrMesgNum": 2800,
+        "waferWorkTime": "<table border='4' width='100%' bgcolor='#ff0000' ><caption>晶圓測試資料</caption><tr><th> 項目 <th> 資料<tr><td> Machine <td> 0<tr><td> OP <td> 0<tr><td> Shift_No <td> 0<tr><td> Date <td> 0<tr><td> TotalTest <td> 0<tr><td> Scan <td> 0<tr><td> Test <td> 0<tr><td> Idle <td> 0<tr><td> TotalQty <td> 0<tr><td> PPH <td> 0<tr><td> CycleTime <td> 0</table>",
+        "probWorkTime": "<table border='4' width='100%' bgcolor='#0000ff' ><caption>探針資料</caption><tr><th> 項目 <th> 資料<tr><td> Machine <td> 0<tr><td> Shift_No <td> 0<tr><td> StartTime <td> 0<tr><td> EndTime <td> 0<tr><td> DailyCheckTime <td> 0<tr><td> ScanTime <td> 0<tr><td> ScanQty <td> 0<tr><td> TestTime <td> 0<tr><td> TestQty <td> 0<tr><td> AlarmTime <td> 0<tr><td> OPCheckTime <td> 0<tr><td> IdleTime <td> 0</table>",
+        "alarmWorkTime": "<table border='4' width='100%' bgcolor='#0000ff' ><caption>Alarm資料</caption><tr><th> 項目 <tr><td> Machine <tr><td> Shift_No<tr><td> StartTime<tr><td> EndTime<tr><td> ErrorCode<tr><td> ErrorTime</table>"
+    }
+}
