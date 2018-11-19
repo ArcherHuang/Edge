@@ -1,0 +1,44 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mscds',{
+        category: 'cloud',
+        color: '#00abec',
+        defaults: {
+            name: {value:"MS CDS"},
+            protocol: {value:"amqp"}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"MS CDS";
+        },
+        credentials: {
+            connectionstring: {type:"text"}
+        },
+        elements: {
+            messagecatalogid: {type:"text"},
+            type: {type:"text"}
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="mscds">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-protocol"><i class="icon-tag"></i> Protocol</label>
+        <select id="node-input-protocol">
+            <option>amqp</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-connectionstring"><i class="fa fa-bookmark"></i> Connection String</label>
+        <input type="text" id="node-input-connectionstring">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="mscds">
+    <p>A simple node that sends the message payloads MS CDS</p>
+</script>
